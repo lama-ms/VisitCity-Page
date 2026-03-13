@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: snow;
+    background-color:#fde8d6;
+    text-shadow: 1px 1px 5px black;
+}
+
+.hero {
+   padding: 90px; 
+   background-image: url("https://i.pinimg.com/1200x/25/62/58/256258dbbdac7d6579410bd827e2ef0e.jpg");
+
+}
+#welcome, #pr{
+  margin:10px 0;
+}
+
+.sec2{
+  background-color: #2C1B14;
+  color: snow;
+  text-align: center;
+  padding: 10px 20px;
+
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 5px black;
+
+}
+
+.card{
+  width: 200px;          
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card h3{
+  min-height: 3em;
+  margin: 12px 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p{
+  margin: 0;
+}
+
+.card-img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+
+.sec3{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.guide-card{
+  background-color: #646b44;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 200px;
+  padding: 10px;
+  border-bottom: 5px solid rgb(94, 76, 44);
+  border-radius: 2%;
+  margin: 18px;
+
+  
+}
+
+.avatar {
+    width: 100px;
+
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
